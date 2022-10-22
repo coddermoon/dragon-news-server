@@ -1,0 +1,76 @@
+[debug] [2022-10-21T05:02:38.149Z] ----------------------------------------------------------------------
+[debug] [2022-10-21T05:02:38.151Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\coddermoon\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2022-10-21T05:02:38.151Z] CLI Version:   11.14.4
+[debug] [2022-10-21T05:02:38.152Z] Platform:      win32
+[debug] [2022-10-21T05:02:38.152Z] Node Version:  v18.8.0
+[debug] [2022-10-21T05:02:38.152Z] Time:          Fri Oct 21 2022 11:02:38 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-10-21T05:02:38.153Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-21T05:02:38.160Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T05:02:38.161Z] > authorizing via signed-in user (coddermoon@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\Complete Web Development With Jhankar Mahbub\Milestones\Milestone-10\Module-60-62(Responsive-website)\dragon-news-server
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-21T05:04:42.460Z] > refreshing access token with scopes: []
+[debug] [2022-10-21T05:04:42.461Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-21T05:04:42.462Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-21T05:04:43.038Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-21T05:04:43.038Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-21T05:04:43.046Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-10-21T05:04:44.201Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-10-21T05:04:44.202Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project dragon-server-4fd51 (dragon-server) 
+[info] 
+=== Functions Setup
+[debug] [2022-10-21T05:05:11.820Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-21T05:05:11.820Z] > authorizing via signed-in user (coddermoon@gmail.com)
+[debug] [2022-10-21T05:05:11.820Z] [iam] checking project dragon-server-4fd51 for permissions ["firebase.projects.get"]
+[debug] [2022-10-21T05:05:11.821Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/dragon-server-4fd51:testIamPermissions [none]
+[debug] [2022-10-21T05:05:11.821Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/dragon-server-4fd51:testIamPermissions x-goog-quota-user=projects/dragon-server-4fd51
+[debug] [2022-10-21T05:05:11.821Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dragon-server-4fd51:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-10-21T05:05:13.623Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/dragon-server-4fd51:testIamPermissions 200
+[debug] [2022-10-21T05:05:13.623Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dragon-server-4fd51:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-10-21T05:05:13.624Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-10-21T05:05:13.624Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/dragon-server-4fd51
+[debug] [2022-10-21T05:05:13.625Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-10-21T05:05:13.625Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/dragon-server-4fd51
+[debug] [2022-10-21T05:05:15.658Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/runtimeconfig.googleapis.com 200
+[debug] [2022-10-21T05:05:15.658Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2022-10-21T05:05:15.670Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com 200
+[debug] [2022-10-21T05:05:15.670Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2022-10-21T05:05:15.670Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2022-10-21T05:05:15.670Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/dragon-server-4fd51
+[debug] [2022-10-21T05:05:17.782Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2022-10-21T05:05:17.783Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com:enable [omitted]
+[debug] [2022-10-21T05:05:27.794Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-10-21T05:05:27.795Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/dragon-server-4fd51
+[debug] [2022-10-21T05:05:29.840Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com 200
+[debug] [2022-10-21T05:05:29.840Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/dragon-server-4fd51/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
